@@ -4,8 +4,9 @@
     BreadthFirstSearch class that extends Search for BFS,and DijkstraSearch class that extends Search for Dijkstra's algorithm.
 
 # Features
-    Breadth-First Search (BFS): It explores all the vertices of a graph in breadth-first order and determines if a path exists between two given vertices.
-    Dijkstra's Algorithm: It finds the shortest path between two vertices in a weighted graph by considering the weights of the edges.
+    Breadth-First Search (BFS): It explores all the vertices of a graph in breadth-first order and determines if 
+    a path exists between two given vertices. Dijkstra's Algorithm: It finds the shortest path between two vertices in a 
+    weighted graph by considering the weights of the edges.
 # Usage
     Import the project into your Java IDE.
     Create a WeightedGraph object and add vertices and weighted edges using the addVertex and addEdge methods.
