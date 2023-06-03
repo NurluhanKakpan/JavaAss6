@@ -15,3 +15,19 @@
     Use the findShortestPath method to find the shortest path between two vertices.
 # Example
     Here's an example usage of the graph search algorithms:
+    WeightedGraph<String> graph = new WeightedGraph<>();
+
+    // Add vertices and edges to the graph
+
+    BreadthFirstSearch<String> bfsSearch = new BreadthFirstSearch<>(graph);
+    DijkstraSearch<String> dijkstraSearch = new DijkstraSearch<>(graph);
+
+    boolean pathExists = bfsSearch.pathExist("A", "E");
+    List<String> shortestPath = bfsSearch.findShortestPath("A", "E");
+
+    if (pathExists) {
+        System.out.println("Path exists!");
+        System.out.println("Shortest path: " + shortestPath);
+    } else {
+        System.out.println("Path does not exist!");
+    }    
